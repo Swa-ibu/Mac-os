@@ -6,7 +6,7 @@
 <div class="col-md-6 position-relative">
     <div class="sign-in-from">
         <h1 class="mt-1">Sign in</h1>
-        <p>Enter your email address and password to access admin panel.</p>
+        <p>Enter your email address and password to access the admin portal.</p>
         <form class="mt-4" method="POST" action="{{ route('login') }}">
             @csrf
 
